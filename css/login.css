@@ -27,6 +27,13 @@ body {
     height: 50px;
     display: flex;
     align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.container-login .heading h6{
+    margin: 0;
 }
 
 .container-login .form {
