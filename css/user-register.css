@@ -1,0 +1,11 @@
+.container-login {
+    overflow-x: hidden;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.container-login .form {
+    padding: 20px 30px;
+    overflow-y: auto; /* Agrega scroll vertical si el contenido es más grande que el contenedor */
+    height: calc(100% - 50px);
+}
