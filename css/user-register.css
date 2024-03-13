@@ -1,6 +1,6 @@
 .container-login {
     overflow-x: hidden;
-    height: 80vh;
+    height: 90vh;
     overflow: hidden;
 }
 
@@ -8,4 +8,9 @@
     padding: 20px 30px;
     overflow-y: auto; /* Agrega scroll vertical si el contenido es más grande que el contenedor */
     height: calc(100% - 50px);
+}
+
+.container-login .mb-3 input:focus{
+    box-shadow: 0 0 0 .25rem rgba(var(--secondary-color-rgb),.25);
+    border-color: var(--secondary-color);
 }

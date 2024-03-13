@@ -33,19 +33,10 @@
   <div id='center' class="main center container pt-2">
     <div class="container text-center">
       <div class="row">
-        <div class="col-12 d-flex justify-content-end"> 
-          <button>Holi</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-12">
-          Column 1
-        </div>
-        <div class="col-md-4 col-sm-6">
-          Column 2
-        </div>
-        <div class="col-md-4 col-sm-6">
-          Columns 3
+        <div class="col-12 d-flex justify-content-end">
+          <button type="button" class="btn btn-primary">Crear pedido</button>
+          <input type="search" name="lupa" id="lupa" placeholder="Buscar...">
+         <div class="input-group-text"> <i class="fa-solid fa-magnifying-glass"></i></div>
         </div>
       </div>
       <div class="row">
@@ -53,29 +44,56 @@
           <table class="table">
             <thead>
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Número</th>
+                <th scope="col">Autoparte</th>
+                <th scope="col">Cantidad</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td>Manubrio</td>
+                <td>500</td>
+                <th> <button>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </button>
+              <button>
+                <i class="fa-regular fa-trash-can"></i>
+              </button></th>
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td>Slider</td>
+                <td>780</td>
+                <th> <button>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </button>
+              <button>
+                <i class="fa-regular fa-trash-can"></i>
+              </button></th>
               </tr>
               <tr>
                 <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <td>Baúl</td>
+                <td>250</td>
+                <th> <button>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </button>
+              <button>
+                <i class="fa-regular fa-trash-can"></i>
+              </button></th>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Parrilla</td>
+                <td>180</td>
+                <th> <button>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </button>
+              <button>
+                <i class="fa-regular fa-trash-can"></i>
+              </button></th>
               </tr>
             </tbody>
           </table>

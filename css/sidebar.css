@@ -178,3 +178,10 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
     margin-top: -9px;
 }
 
+div .btn btn-primary {
+    background-color: var(--secondary-color) !important;
+}
+
+tehad {
+    background-color: var(--secondary-color);
+}
